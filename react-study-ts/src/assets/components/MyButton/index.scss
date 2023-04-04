@@ -1,0 +1,22 @@
+.btn {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  padding: 3px 5px;
+
+  &.btn-primary {
+    background-color: aquamarine;
+  }
+
+  &.btn-success {
+    background-color: chartreuse;
+  }
+
+  &.btn-warn {
+    background-color: coral;
+  }
+
+  &.btn-danger {
+    background-color: crimson;
+  }
+}
