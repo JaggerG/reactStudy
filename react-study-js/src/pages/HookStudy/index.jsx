@@ -3,6 +3,8 @@ import PersonInfoEditor from "./PersonInfoEditor.jsx";
 import SyncInput from './SyncInput'
 import SearchList from './SearchList'
 import MultiLevelPass from "./MultiLevelPass.jsx";
+import InputRef from "./InputRef";
+import PlayerEffect from "./PlayerEffect.jsx";
 
 const view = () => {
   return (
@@ -13,6 +15,8 @@ const view = () => {
         <SyncInput/>
         <SearchList/>
         <MultiLevelPass/>
+        <InputRef/>
+        <PlayerEffect/>
       </div>
     </div>
 
